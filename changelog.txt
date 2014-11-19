@@ -1,8 +1,0 @@
-2014年9月11日
-1、增加定值接口:RegisterReadFixValue（注册读定值）、RegisterWriteFixValue（注册写定值）、RespondResult_FixValue（返回定值）
-2、增加内部接口:InnerChannelSendData（内部规约发送数据到SCADA）、GetYcValue（获取遥测实时值）、GetYxValue（获取遥信实时值）
-
-2014年11月17日
-1、改进文件结构，添加types.h头文件。
-2、ExplainLinkData函数修整。
-3、添加DelayExplainYx的一系列函数。
