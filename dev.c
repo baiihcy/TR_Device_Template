@@ -545,7 +545,7 @@ static inline void ExplainYx(struct _PubDev *pPubDev,WORD wYxindex,BOOL bOnoff)
 	YX_DELAY_EXPLAIN_NODE* pNode;
 	if (pNode=pPubDev->FindYxDelayExplainNode(pPubDev,wYxindex))
 	{
-		pPubDev->DeleteYxDelayExplainNode(pNode);
+		pPubDev->DeleteYxDelayExplainNode(pPubDev,pNode);
 	}
 }
 static void InsertYxDelayExplainNode(struct _PubDev *pPubDev,YX_DELAY_EXPLAIN_NODE InsertionNode)

@@ -228,3 +228,9 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+#custom
+*.cfp
+*.cfpg
+*.o
+*.so
